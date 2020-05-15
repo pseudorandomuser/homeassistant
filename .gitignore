@@ -1,0 +1,27 @@
+.*
+!/.gitignore
+!/.storage
+
+# Python VENV
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+[Ss]hare
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# HomeAssistant files
+.storage/*
+!.storage/lovelace
+
+*.db
+*.log
+secrets.yaml
+custom_components
+www/community
+deps

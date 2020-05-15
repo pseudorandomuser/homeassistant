@@ -1,0 +1,27 @@
+bedroom:
+    name: Schlofzëmmer
+    icon: mdi:bed-empty
+    entities:
+        - group.bedroom_lights
+        - group.bedroom_outlets
+bedroom_outlets:
+    name: Steckdousen
+    icon: mdi:power-socket-eu
+    entities:
+        - switch.02068131807d3a4f6dee # Ladestation
+        - switch.0206813184f3eb220cf6 # Schreibtisch
+        - switch.02068131b4e62d422990 # PC
+        - switch.bf4635375849ba8b69ypdb # Nachttisch
+bedroom_lights:
+    name: Luuchten
+    icon: mdi:lightbulb
+    entities:
+        - switch.bf297c16661a5eac96ymzj # Schlaflampe
+        - switch.1207701884f3eb1b553f # Globus
+        - group.bedroom_lights_hue
+bedroom_lights_hue:
+    name: Hue
+    icon: mdi:lightbulb
+    entities:
+        - light.schlafzimmer_links
+        - light.schlafzimmer_rechts

@@ -1,0 +1,15 @@
+kitchen:
+    name: Kichen
+    icon: mdi:food
+    entities:
+        - group.kitchen_lights
+kitchen_lights:
+    name: Luuchten
+    icon: mdi:lightbulb
+    entities:
+        - group.kitchen_lights_hue
+kitchen_lights_hue:
+    name: Hue
+    icon: mdi:lightbulb
+    entities:
+        - light.kuche_mitte

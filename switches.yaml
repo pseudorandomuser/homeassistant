@@ -1,0 +1,7 @@
+- platform: command_line
+  switches:
+      zeus_server:
+          command_on: !secret server_command_on
+          command_off: !secret server_command_off
+          command_state: !secret server_command_state
+          friendly_name: Zeus Server

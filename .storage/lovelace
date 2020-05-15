@@ -1,0 +1,760 @@
+{
+    "data": {
+        "config": {
+            "title": "Saar Castle",
+            "views": [
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.appartment"
+                                }
+                            ],
+                            "type": "entities"
+                        },
+                        {
+                            "elements": [
+                                {
+                                    "entity": "switch.3503127184f3eb2655e6",
+                                    "icon": "mdi:floor-lamp",
+                                    "style": {
+                                        "left": "55%",
+                                        "top": "32%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.bfaa300fb72230e3bea3ud",
+                                    "icon": "mdi:sofa",
+                                    "style": {
+                                        "left": "52%",
+                                        "top": "45%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f8420",
+                                    "icon": "mdi:microwave",
+                                    "style": {
+                                        "left": "40%",
+                                        "top": "21%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f801f",
+                                    "icon": "mdi:google-controller",
+                                    "style": {
+                                        "left": "47%",
+                                        "top": "21%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "media_player.sony_bravia_tv",
+                                    "icon": "mdi:youtube-tv",
+                                    "style": {
+                                        "left": "54%",
+                                        "top": "21%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.bf4635375849ba8b69ypdb",
+                                    "icon": "mdi:bed-empty",
+                                    "style": {
+                                        "left": "53%",
+                                        "top": "77%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.02068131b4e62d422990",
+                                    "icon": "mdi:desktop-mac",
+                                    "style": {
+                                        "left": "37%",
+                                        "top": "58%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.zeus_server",
+                                    "icon": "mdi:server-network",
+                                    "style": {
+                                        "left": "44%",
+                                        "top": "58%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.0206813184f3eb220cf6",
+                                    "icon": "mdi:desk-lamp",
+                                    "style": {
+                                        "left": "34%",
+                                        "top": "72%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f6dee",
+                                    "icon": "mdi:battery-charging",
+                                    "style": {
+                                        "left": "38%",
+                                        "top": "86%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.bf297c16661a5eac96ymzj",
+                                    "icon": "mdi:floor-lamp",
+                                    "style": {
+                                        "left": "56%",
+                                        "top": "60%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "light.wohnzimmer_mitte",
+                                    "style": {
+                                        "left": "45%",
+                                        "top": "32%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "light.kuche_mitte",
+                                    "style": {
+                                        "left": "66%",
+                                        "top": "20%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "light.schlafzimmer_rechts",
+                                    "style": {
+                                        "left": "22%",
+                                        "top": "59%",
+                                        "transform": "rotate(270deg)"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "light.schlafzimmer_links",
+                                    "style": {
+                                        "left": "22%",
+                                        "top": "73%",
+                                        "transform": "rotate(270deg)"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "light.bad_links",
+                                    "style": {
+                                        "left": "67%",
+                                        "top": "30%",
+                                        "transform": "rotate(90deg)"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "light.bad_rechts",
+                                    "style": {
+                                        "left": "67%",
+                                        "top": "37%",
+                                        "transform": "rotate(90deg)"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                },
+                                {
+                                    "entity": "switch.1207701884f3eb1b553f",
+                                    "icon": "mdi:globe-model",
+                                    "style": {
+                                        "left": "43%",
+                                        "top": "86%"
+                                    },
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "type": "state-icon"
+                                }
+                            ],
+                            "image": "/local/floorplan.png",
+                            "type": "picture-elements"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "columns": 3,
+                                    "entities": [
+                                        {
+                                            "entity": "group.livingroom",
+                                            "name": "All Apparater"
+                                        },
+                                        {
+                                            "entity": "group.livingroom_lights",
+                                            "type": "state-icon"
+                                        },
+                                        {
+                                            "entity": "group.livingroom_lights_hue"
+                                        },
+                                        {
+                                            "entity": "group.livingroom_outlets"
+                                        },
+                                        {
+                                            "entity": "switch.3503127184f3eb2655e6",
+                                            "name": "St\u00e9iluucht"
+                                        },
+                                        {
+                                            "entity": "switch.02068131807d3a4f8420",
+                                            "name": "Mikrowell"
+                                        },
+                                        {
+                                            "entity": "switch.02068131807d3a4f801f"
+                                        },
+                                        {
+                                            "entity": "switch.bfaa300fb72230e3bea3ud"
+                                        },
+                                        {
+                                            "entity": "media_player.sony_bravia_tv"
+                                        }
+                                    ],
+                                    "show_state": false,
+                                    "title": "Stuff",
+                                    "type": "glance"
+                                },
+                                {
+                                    "entity": "media_player.sony_bravia_tv",
+                                    "type": "custom:mini-media-player"
+                                },
+                                {
+                                    "entity": "media_player.echo_wohnzimmer",
+                                    "type": "custom:mini-media-player"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        },
+                        {
+                            "columns": 3,
+                            "entities": [
+                                {
+                                    "entity": "group.bedroom",
+                                    "name": "All Apparater"
+                                },
+                                {
+                                    "entity": "group.bedroom_lights"
+                                },
+                                {
+                                    "entity": "group.bedroom_lights_hue"
+                                },
+                                {
+                                    "entity": "group.bedroom_outlets"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f6dee",
+                                    "name": "Luedstatioun"
+                                },
+                                {
+                                    "entity": "switch.0206813184f3eb220cf6",
+                                    "name": "Schreifd\u00ebsch"
+                                },
+                                {
+                                    "entity": "switch.02068131b4e62d422990"
+                                },
+                                {
+                                    "entity": "switch.bf4635375849ba8b69ypdb",
+                                    "name": "Nuetsd\u00ebsch"
+                                },
+                                {
+                                    "entity": "switch.zeus_server"
+                                }
+                            ],
+                            "show_icon": true,
+                            "show_state": false,
+                            "title": "Schlofz\u00ebmmer",
+                            "type": "glance"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.kitchen_lights_hue",
+                                    "name": "Kichen"
+                                },
+                                {
+                                    "entity": "group.bathroom_lights_hue",
+                                    "name": "Buedz\u00ebmmer"
+                                }
+                            ],
+                            "show_state": true,
+                            "title": "Kichen a Buedz\u00ebmmer",
+                            "type": "glance"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "sensor.worldwide_coronavirus_confirmed"
+                                },
+                                {
+                                    "entity": "sensor.worldwide_coronavirus_current"
+                                },
+                                {
+                                    "entity": "sensor.worldwide_coronavirus_recovered"
+                                },
+                                {
+                                    "entity": "sensor.worldwide_coronavirus_deaths"
+                                }
+                            ],
+                            "title": "SARS-CoV-2 Statistiken",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "device_tracker.pits_iphone_xs_max"
+                                },
+                                {
+                                    "entity": "sensor.pits_iphone_xs_max_battery_level",
+                                    "name": "Batteriezoustand"
+                                },
+                                {
+                                    "entity": "sensor.pits_iphone_xs_max_connection_type",
+                                    "name": "Connectiounstyp"
+                                }
+                            ],
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:home",
+                    "path": "default_view",
+                    "title": "default_view"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.02068131807d3a4f8420",
+                                    "name": "Mikrowell"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f801f"
+                                },
+                                {
+                                    "entity": "switch.bfaa300fb72230e3bea3ud"
+                                }
+                            ],
+                            "title": "Steckdousen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.3503127184f3eb2655e6",
+                                    "name": "St\u00e9iluucht"
+                                },
+                                {
+                                    "entity": "light.wohnzimmer_mitte",
+                                    "name": "Plafondsluucht"
+                                }
+                            ],
+                            "title": "Luuchten",
+                            "type": "entities"
+                        },
+                        {
+                            "client_id": "2ac85a30411a4de0a0a8a8e96e360f07",
+                            "height": 312,
+                            "type": "custom:spotify-card"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entity": "media_player.sony_bravia_tv",
+                                    "type": "custom:mini-media-player"
+                                },
+                                {
+                                    "entity": "media_player.echo_wohnzimmer",
+                                    "type": "custom:mini-media-player"
+                                },
+                                {
+                                    "entity": "media_player.echo_dot_schlafzimmer",
+                                    "type": "custom:mini-media-player"
+                                },
+                                {
+                                    "entity": "media_player.uberall",
+                                    "type": "custom:mini-media-player"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "icon": "mdi:youtube-tv",
+                    "path": "livingroom",
+                    "title": "Stuff"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.bf4635375849ba8b69ypdb",
+                                    "name": "Nuetsd\u00ebsch"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f6dee",
+                                    "name": "Luedstatioun"
+                                },
+                                {
+                                    "entity": "switch.0206813184f3eb220cf6",
+                                    "name": "Schreifd\u00ebsch"
+                                },
+                                {
+                                    "entity": "switch.02068131b4e62d422990"
+                                }
+                            ],
+                            "title": "Steckdousen",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.1207701884f3eb1b553f"
+                                },
+                                {
+                                    "entity": "switch.bf297c16661a5eac96ymzj",
+                                    "name": "St\u00e9iluucht"
+                                },
+                                {
+                                    "entity": "group.bedroom_lights_hue"
+                                }
+                            ],
+                            "title": "Luuchten",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.echo_dot_schlafzimmer",
+                            "type": "custom:mini-media-player"
+                        }
+                    ],
+                    "icon": "mdi:bed-empty",
+                    "path": "bedroom",
+                    "title": "Schlofz\u00ebmmer"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.kitchen_lights_hue"
+                                }
+                            ],
+                            "title": "Luuchten Kichen",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:food",
+                    "path": "kitchen",
+                    "title": "Kichen"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.bathroom_lights_hue"
+                                }
+                            ],
+                            "title": "Luuchten Buedz\u00ebmmer",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:shower",
+                    "path": "bathroom",
+                    "title": "Buedz\u00ebmmer"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "icon": "",
+                    "path": "separator-raim",
+                    "title": "|"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.livingroom_lights",
+                                    "icon": "mdi:youtube-tv",
+                                    "name": "Stuff"
+                                },
+                                {
+                                    "entity": "group.bedroom_lights",
+                                    "icon": "mdi:bed-empty",
+                                    "name": "Schlofz\u00ebmmer"
+                                },
+                                {
+                                    "entity": "group.kitchen_lights",
+                                    "icon": "mdi:food",
+                                    "name": "Kichen"
+                                },
+                                {
+                                    "entity": "group.bathroom_lights",
+                                    "icon": "mdi:shower",
+                                    "name": "Buedz\u00ebmmer"
+                                }
+                            ],
+                            "type": "glance"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.1207701884f3eb1b553f"
+                                },
+                                {
+                                    "entity": "switch.3503127184f3eb2655e6",
+                                    "name": "St\u00e9iluucht Stuff"
+                                },
+                                {
+                                    "entity": "switch.bf297c16661a5eac96ymzj",
+                                    "name": "St\u00e9iluucht Z\u00ebmmer"
+                                },
+                                {
+                                    "entity": "group.livingroom_lights_hue",
+                                    "name": "Hue Stuff"
+                                },
+                                {
+                                    "entity": "group.bedroom_lights_hue",
+                                    "name": "Hue Z\u00ebmmer"
+                                },
+                                {
+                                    "entity": "group.kitchen_lights_hue",
+                                    "name": "Hue Kichen"
+                                },
+                                {
+                                    "entity": "group.bathroom_lights_hue",
+                                    "name": "Hue Buedz\u00ebmmer"
+                                }
+                            ],
+                            "title": "Luuchten",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:lightbulb-on",
+                    "path": "luuchten",
+                    "title": "Luuchten"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "entities": [
+                                {
+                                    "entity": "group.livingroom_outlets",
+                                    "icon": "mdi:youtube-tv",
+                                    "name": "Stuff"
+                                },
+                                {
+                                    "entity": "group.bedroom_outlets",
+                                    "icon": "mdi:bed-empty",
+                                    "name": "Schlofz\u00ebmmer"
+                                }
+                            ],
+                            "type": "glance"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "switch.02068131807d3a4f6dee"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f801f"
+                                },
+                                {
+                                    "entity": "switch.02068131807d3a4f8420"
+                                },
+                                {
+                                    "entity": "switch.0206813184f3eb220cf6"
+                                },
+                                {
+                                    "entity": "switch.02068131b4e62d422990"
+                                },
+                                {
+                                    "entity": "switch.bf4635375849ba8b69ypdb"
+                                },
+                                {
+                                    "entity": "switch.bfaa300fb72230e3bea3ud"
+                                }
+                            ],
+                            "title": "Steckdousen",
+                            "type": "entities"
+                        }
+                    ],
+                    "icon": "mdi:power-socket-eu",
+                    "path": "steckdousen",
+                    "title": "steckdousen"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "icon": "",
+                    "path": "separator-kategorien",
+                    "title": "|"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "aspect_ratio": "127%",
+                            "type": "iframe",
+                            "url": "https://cita.lu"
+                        },
+                        {
+                            "aspect_ratio": "127%",
+                            "type": "iframe",
+                            "url": "https://cita.lu/fr/live-stream/a1.html"
+                        },
+                        {
+                            "cards": [
+                                {
+                                    "entity": "sensor.haldystrasse_universiteit",
+                                    "icon": "mdi:school",
+                                    "type": "sensor"
+                                },
+                                {
+                                    "entity": "sensor.letzebuerg_saarbrecken",
+                                    "icon": "mdi:home-city",
+                                    "type": "sensor"
+                                },
+                                {
+                                    "entity": "sensor.saarbrecken_letzebuerg",
+                                    "icon": "mdi:home",
+                                    "type": "sensor"
+                                },
+                                {
+                                    "entities": [
+                                        {
+                                            "entity": "sensor.haldystrasse_universiteit"
+                                        },
+                                        {
+                                            "entity": "sensor.saarbrecken_letzebuerg"
+                                        },
+                                        {
+                                            "entity": "sensor.letzebuerg_saarbrecken"
+                                        }
+                                    ],
+                                    "hours_to_show": 24,
+                                    "refresh_interval": 0,
+                                    "type": "history-graph"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "icon": "mdi:car-info",
+                    "path": "traffik",
+                    "title": "Traffik"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "aspect_ratio": "100%",
+                            "title": "Singapore Airlines (FRA \u21d2 SIN)",
+                            "type": "iframe",
+                            "url": "https://flightaware.com/live/flight/SIA25"
+                        },
+                        {
+                            "aspect_ratio": "100%",
+                            "title": "Singapore Airlines (SIN \u21d2 FRA)",
+                            "type": "iframe",
+                            "url": "https://flightaware.com/live/flight/SIA26"
+                        }
+                    ],
+                    "icon": "mdi:airplane-takeoff",
+                    "path": "aviatioun",
+                    "title": "Aviatioun"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "icon": "",
+                    "path": "separator-transport",
+                    "title": "|"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "icon": "mdi:server-network",
+                    "path": "reseausverwaltung",
+                    "title": "R\u00e9seausverwaltung"
+                },
+                {
+                    "badges": [],
+                    "cards": [],
+                    "icon": "mdi:console-line",
+                    "path": "kommandozeil",
+                    "title": "Kommandozeil"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

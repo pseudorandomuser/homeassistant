@@ -1,0 +1,11 @@
+appartment:
+    icon: mdi:home
+    name: Wunnéng
+    entities:
+        - group.livingroom_lights
+        - group.livingroom_outlets
+        - media_player.sony_bravia_tv
+        - group.bedroom_lights
+        - group.bedroom_outlets
+        - group.kitchen_lights
+        - group.bathroom_lights

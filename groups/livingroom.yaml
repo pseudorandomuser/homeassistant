@@ -1,0 +1,25 @@
+livingroom:
+    name: Stuff
+    icon: mdi:youtube-tv
+    entities:
+        - media_player.sony_bravia_tv
+        - group.livingroom_lights
+        - group.livingroom_outlets
+livingroom_outlets:
+    name: Steckdousen
+    icon: mdi:power-socket-eu
+    entities:
+        - switch.02068131807d3a4f801f # Entertainment
+        - switch.02068131807d3a4f8420 # Mikrowelle
+        - switch.bfaa300fb72230e3bea3ud # Couch
+livingroom_lights:
+    name: Luuchten
+    icon: mdi:lightbulb
+    entities:
+        - switch.3503127184f3eb2655e6 # Wohnlampe
+        - group.livingroom_lights_hue
+livingroom_lights_hue:
+    name: Hue
+    icon: mdi:lightbulb
+    entities:
+        - light.wohnzimmer_mitte

@@ -1,0 +1,3 @@
+media_player.sony_bravia_tv:
+    device_class: tv
+    source_list: [HDMI 1, HDMI 2, HDMI 3/ARC, HDMI 4, ProSieben, 3sat HD, NITRO, RTL, VOX, SAT.1, sixx, MTV, Comedy Central, ZDF HD, Das Erste HD, kabel eins, RTL II, euronews, tagesschau24, CNN (eng), BBC World News (eng), n-tv, SUPER RTL]

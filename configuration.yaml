@@ -1,0 +1,33 @@
+# Icons from https://cdn.materialdesignicons.com/4.5.95/
+# Coordinates from https://www.latlong.net/
+# Elevation from https://www.freemaptools.com/elevation-finder.htm
+# Floorplan from https://floorplanner.com/projects/72898110/editor
+# Nice configuration: https://github.com/eximo84/homeassistant-config
+# Spotify dashboard: https://developer.spotify.com/dashboard/applications/2ac85a30411a4de0a0a8a8e96e360f07
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+
+default_config:
+
+group: !include_dir_merge_named groups/
+sensor: !include_dir_merge_list sensors/
+
+zone: !include zones.yaml
+switch: !include switches.yaml
+homekit: !include homekit.yaml
+
+homeassistant:
+    customize: !include customize.yaml
+
+history:
+    include:
+        domains:
+            - light
+            - switch
+            - sun
+
+tuya:
+    username: !secret smart_life_username
+    password: !secret smart_life_password
+    country_code: !secret smart_life_country
+    platform: smart_life

@@ -1,0 +1,18 @@
+-   platform: waze_travel_time
+    origin: zone.home
+    destination: zone.universiteit
+    name: "Haldystraße ⇒ Universitéit"
+    region: EU
+
+-   platform: waze_travel_time
+    origin: zone.home
+    destination: zone.sandweiler
+    name: "Saarbrécken ⇒ Lëtzebuerg"
+    region: EU
+
+-   platform: waze_travel_time
+    origin: zone.sandweiler
+    destination: zone.home
+    name: "Lëtzebuerg ⇒ Saarbrécken"
+    region: EU
+

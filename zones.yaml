@@ -1,0 +1,9 @@
+-   name: Universitéit
+    latitude: 49.257640
+    longitude: 7.039700
+    icon: mdi:school
+
+-   name: Sandweiler
+    latitude: !secret home_luxembourg_latitude
+    longitude: !secret home_luxembourg_longitude
+    icon: mdi:home

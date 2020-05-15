@@ -1,0 +1,16 @@
+bathroom:
+    name: Buedzëmmer
+    icon: mdi:shower
+    entities:
+        - group.bathroom_lights
+bathroom_lights:
+    name: Luuchten
+    icon: mdi:lightbulb
+    entities:
+        - group.bathroom_lights_hue
+bathroom_lights_hue:
+    name: Hue
+    icon: mdi:lightbulb
+    entities:
+        - light.bad_links
+        - light.bad_rechts
