@@ -311,11 +311,12 @@
                                     "name": "Schreifd\u00ebsch"
                                 },
                                 {
-                                    "entity": "switch.02068131b4e62d422990"
-                                },
-                                {
                                     "entity": "switch.bf4635375849ba8b69ypdb",
                                     "name": "Nuetsd\u00ebsch"
+                                },
+                                {
+                                    "entity": "switch.02068131b4e62d422990",
+                                    "name": "Serverd\u00ebsch"
                                 },
                                 {
                                     "entity": "switch.zeus_server"
